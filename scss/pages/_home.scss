@@ -1,0 +1,19 @@
+.home-bgImg-container {
+  @include bgImg(100vh, $main-bgImg-path);
+}
+.home {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+  height: 80vh;
+
+  & h2 {
+    font-size: 4rem;
+    color: blue;
+  }
+  & h1 {
+    font-size: 3rem;
+  }
+}

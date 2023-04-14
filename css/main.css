@@ -1,0 +1,325 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.about-bgImg-container {
+  height: 50vh;
+  width: 100%;
+  background: linear-gradient(to right, rgba(39, 39, 39, 0.9), rgba(39, 39, 39, 0.3)), url("../img/model-1.jpg");
+  background-position: center center;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.about-bgImg-container .about-bio {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+.about-bgImg-container .about-bio h2 {
+  font-size: 2rem;
+  color: red;
+}
+.about-bgImg-container .about-bio p {
+  font-size: 1.2rem;
+}
+
+.about {
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+}
+.about .about-div {
+  background-color: red;
+  padding: 2rem;
+  width: 70%;
+  border-bottom: 3px solid blue;
+  line-height: 25px;
+}
+
+.contact {
+  height: 40vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+.contact h2 {
+  font-size: 3rem;
+  margin-bottom: 2rem;
+}
+.contact__list {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  font-size: 1.5rem;
+  gap: 2.5rem 2rem;
+  justify-content: center;
+  align-items: center;
+}
+.contact .text-secondary {
+  color: #ff652f;
+}
+
+.home-bgImg-container {
+  height: 100vh;
+  width: 100%;
+  background: linear-gradient(to right, rgba(39, 39, 39, 0.9), rgba(39, 39, 39, 0.3)), url("../img/model-1.jpg");
+  background-position: center center;
+  background-size: cover;
+}
+
+.home {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+  height: 80vh;
+}
+.home h2 {
+  font-size: 4rem;
+  color: blue;
+}
+.home h1 {
+  font-size: 3rem;
+}
+
+.project-bgImg-container {
+  height: 50vh;
+  width: 100%;
+  background: linear-gradient(to right, rgba(39, 39, 39, 0.9), rgba(39, 39, 39, 0.3)), url("../img/model-1.jpg");
+  background-position: center center;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.project-bgImg-container h2 {
+  text-align: center;
+  font-size: 4rem;
+  color: white;
+}
+
+.projects {
+  margin-top: 2rem;
+}
+.projects__items {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 2rem 5rem;
+  gap: 1rem 0;
+}
+.projects__item {
+  width: 100%;
+  cursor: pointer;
+  border-bottom: 5px solid #ff652f;
+  position: relative;
+}
+.projects__item img {
+  width: 100%;
+  height: 100%;
+}
+.projects__item::after {
+  content: "";
+  width: 100%;
+  height: 100%;
+  background-color: #ff652f;
+  position: absolute;
+  left: 0;
+  opacity: 0;
+  transition: all 0.5s;
+}
+.projects__item:hover::after {
+  opacity: 0.7;
+}
+
+.home-social {
+  position: fixed;
+  bottom: 1rem;
+  left: 1rem;
+}
+.home-social .home-social-link {
+  font-size: 2rem;
+}
+.home-social .home-social-copy {
+  position: fixed;
+  bottom: 1rem;
+  right: 1rem;
+}
+.home-social a {
+  color: white;
+  padding: 0.3rem;
+  transition: all 1s;
+}
+.home-social a:hover {
+  color: red;
+  transition: all 1s;
+}
+
+.about-social {
+  position: fixed;
+  bottom: 1rem;
+  left: 1rem;
+}
+.about-social .about-social-link {
+  font-size: 2rem;
+  display: flex;
+  flex-direction: column;
+}
+.about-social .about-social-copy {
+  position: fixed;
+  bottom: 1rem;
+  right: 1rem;
+  writing-mode: vertical-lr;
+}
+.about-social a {
+  color: white;
+  padding: 0.3rem;
+  transition: all 1s;
+}
+.about-social a:hover {
+  color: red;
+  transition: all 1s;
+}
+
+.contact-social {
+  text-align: center;
+}
+.contact-social .contact-social-link {
+  font-size: 2rem;
+  margin-top: 4rem;
+}
+.contact-social .contact-social-copy {
+  margin-top: 1rem;
+}
+.contact-social a {
+  color: white;
+  padding: 0.3rem;
+  transition: all 1s;
+}
+.contact-social a:hover {
+  color: red;
+  transition: all 1s;
+}
+
+.nav {
+  height: 10vh;
+  padding: 1rem;
+}
+.nav__list {
+  text-align: right;
+}
+.nav__item {
+  display: inline;
+  padding: 1rem;
+}
+.nav__link {
+  font-size: 1rem;
+  text-transform: uppercase;
+  font-weight: 500;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: #eee;
+  transition: all 1s;
+}
+.nav__link:hover {
+  color: blue;
+}
+.nav__link--active {
+  color: #ff652f;
+}
+
+@media screen and (min-width: 0px) {
+  .nav {
+    padding: 0.5rem;
+  }
+  .nav__list {
+    text-align: center;
+  }
+  .nav__item {
+    padding-right: 0.7rem;
+  }
+  .nav .nav__link {
+    font-size: 0.9rem;
+  }
+  .contact h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+  .contact__list {
+    gap: 2rem 1.2rem;
+    font-size: 1.2rem;
+  }
+}
+@media screen and (min-width: 576px) {
+  .nav {
+    padding: 0.7rem;
+  }
+  .nav__list {
+    text-align: right;
+  }
+  .nav__item {
+    padding-right: 1rem;
+  }
+  .nav .nav__link {
+    font-size: 1rem;
+  }
+  .contact h2 {
+    font-size: 2.5rem;
+    margin-bottom: 1.5rem;
+  }
+  .contact__list {
+    gap: 2.5rem 2rem;
+    font-size: 1.5rem;
+  }
+}
+@media screen and (min-width: 768px) {
+  .nav__item {
+    padding-right: 1.3rem;
+  }
+  .nav .nav__link {
+    font-size: 1.3rem;
+  }
+  .projects__item {
+    width: 100%;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .nav__item {
+    padding-right: 1.5rem;
+  }
+  .nav .nav__link {
+    font-size: 1.5rem;
+  }
+  .projects__item {
+    width: 50%;
+  }
+  .contact__list {
+    flex-direction: row;
+  }
+}
+@media screen and (min-width: 1600px) {
+  .projects__item {
+    width: 33%;
+  }
+}
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  height: 100vh;
+  line-height: 1;
+  background-color: #272727;
+  color: #eee;
+}
+
+/*# sourceMappingURL=main.css.map */
