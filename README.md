@@ -1,5 +1,4 @@
 # 6Sass
-# 
 # Sass Website Page Design
 ## Description
 Project aims to create Web Page with Sass.
@@ -34,6 +33,7 @@ Sass Website Page Design (folder)
                     |----_projects.scss 
               |----main.scss  
         |----img (folder)
+        
 ## Project-gif
  https://raw.githubusercontent.com/achieve-software/gif/main/sasss(2)-min.gif
 ## Project-link
