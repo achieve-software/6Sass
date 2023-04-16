@@ -1,7 +1,6 @@
-# 6Sass
-# Sass Website Page Design
+# IOS Calculator
 ## Description
-Project aims to create Web Page with Sass.
+Project aims to create IOS Calculator.
 ## Project Skeleton
 ```
 Sass Website Page Design (folder)
@@ -33,9 +32,9 @@ Sass Website Page Design (folder)
                     |----_projects.scss 
               |----main.scss  
         |----img (folder)
-        
+```
 ## Project-gif
- https://raw.githubusercontent.com/achieve-software/gif/main/sasss(2)-min.gif
+https://raw.githubusercontent.com/achieve-software/gif/main/sasss(2)-min.gif
 ## Project-link
 https://fluffy-brigadeiros-21af96.netlify.app/
 ### At the end of the project, following topics are to be covered;
