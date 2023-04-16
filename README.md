@@ -1,4 +1,4 @@
-# IOS Calculator
+# Sass Website Page Design
 ## Description
 Project aims to create IOS Calculator.
 ## Project Skeleton
