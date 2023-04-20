@@ -40,4 +40,4 @@ https://fluffy-brigadeiros-21af96.netlify.app/
 ### At the end of the project, following topics are to be covered;
 - HTML
 - CSS
-- JS
+- SASS
