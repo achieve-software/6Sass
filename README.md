@@ -1,6 +1,6 @@
 # Sass Website Page Design
 ## Description
-Project aims to create IOS Calculator.
+Project aims to create Website Page Design
 ## Project Skeleton
 ```
 Sass Website Page Design (folder)
